@@ -5,15 +5,15 @@ class TwoWayToggleInput(
     private var pressed: Boolean = false
     private var state: Double = 0.0
     fun input(
-        input: () -> Boolean,
+        button: () -> Boolean,
         idle: Double = 0.0,
         power: Double = 1.0,
     ){
-        if(input() && !pressed){
+        if(button() && !pressed){
             state = power
             pressed = true
         }
-        if(input() && pressed){
+        if(button() && pressed){
             state = idle
             pressed = false
         }
