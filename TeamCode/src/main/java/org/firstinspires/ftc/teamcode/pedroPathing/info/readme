@@ -1,0 +1,5 @@
+PedroPathing is the software we use to create autonomous programs.
+While we may create autonomous programs outside of this folder, this is where all the constants
+and setup for the PedroPathing software is located.  You can also find the tuners and tests here.
+
+DO NOT EDIT ANYTHING IN THIS FOLDER UNLESS YOU KNOW WHAT YOU ARE DOING.
