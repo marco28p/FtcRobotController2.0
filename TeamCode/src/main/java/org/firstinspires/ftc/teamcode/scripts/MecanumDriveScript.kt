@@ -49,6 +49,11 @@ class MecanumDriveScript(
             frontRightPower *= -powerScale
             backRightPower *= -powerScale
 
+            fl.power = frontLeftPower
+            bl.power = backLeftPower
+            fr.power = frontRightPower
+            br.power = backRightPower
+
 
         }
     }
